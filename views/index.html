@@ -2,32 +2,33 @@
 
 
 
-<html>
-   <head>
-      <title>File Metadata</title>
-      <link rel="shortcut icon" href="https://cdn.freecodecamp.org/universal/favicons/favicon-32x32.png" type="image/x-icon"/>
-      <link href="/public/style.css" rel="stylesheet" type="text/css">
-   </head>
-
-
-   <body>
-      <div class="container">
-        <h2>API Project: File Metadata Microservice</h2>
-        <h3>Usage:</h3>
-        <p>
-          Please Upload a File ...
-        </p>
-        <div class="view">
-          <h4 id="output"></h4>
-          <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
-            <input id="inputfield" type="file" name="upfile">
-            <input id="button" type="submit" value="Upload">
-          </form>
-        </div>
-      </div>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Metadata</title>
+    <link rel="shortcut icon" href="https://cdn.freecodecamp.org/universal/favicons/favicon-32x32.png" type="image/x-icon"/>
+    <link href="/public/style.css" rel="stylesheet" type="text/css">
+  </head>
   
-      <footer>
-        <p>This project was forked from <a href="https://github.com/freeCodeCamp/boilerplate-project-urlshortener" target="_blank"></a></p>
-      </footer>
-   </body>
+  <body>
+    <div class="container">
+      <h2>API Project: File Metadata Microservice</h2>
+      <h3>Usage:</h3>
+      <p>
+        Please Upload a File ...
+      </p>
+      <div class="view">
+        <h4 id="output"></h4>
+        <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
+          <input id="inputfield" type="file" name="upfile">
+          <input id="button" type="submit" value="Upload">
+        </form>
+      </div>
+    </div>
+    
+    <footer>
+      <p>This project was forked from <a href="https://github.com/freeCodeCamp/boilerplate-project-urlshortener" target="_blank"></a></p>
+    </footer>
+  </body>
 </html>
